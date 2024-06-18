@@ -1,9 +1,7 @@
 # RNN-GC
 
 ## Introduction
-This repo contains a python implementation of RNN-GC.  
-custom_lstm.py is a re-implementation of LSTM using keras.  
-rnn_gc.py is a implementation of NUE strategy
+This is the official implementation of article "Estimating brain connectivity with varying-length time lags using a recurrent neural network (TBME 2018)". It automatically compute the directional brain connectivity from EEG, ECoG and LFP signals.
 
 ## Requirements: software
 * Python 2.7 or 3.6
@@ -17,8 +15,5 @@ run rnn_gc_demo.py
 ![](assets/results.png)
 
 ## Citing RNN-GC
-If you find RNN-GC useful in your research, please consider citing:
-Yueming Wang, Kang Lin, Yu Qi, Qi Lian, Shaozhe Feng, Gang Pan, Zhaohui Wu,
- ["Estimating Brain Connectivity with Varying Length Time Lags Using Recurrent Neural Network"](https://ieeexplore.ieee.org/document/8370751), IEEE Transactions on Biomedical Engineering, In press.
-
-
+If you find the toolbox is useful, please cite:
+Wang Y, Lin K, Qi Y, et al. Estimating brain connectivity with varying-length time lags using a recurrent neural network[J]. IEEE Transactions on Biomedical Engineering, 2018, 65(9): 1953-1963.
